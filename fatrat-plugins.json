@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "fatrat-warforum-free",
+  "description": "FatRat plugin for free downloads from webshare.cz links.",
+  "plugins": [
+    {
+      "name": "warforum-free",
+      "source": "./warforum-free",
+      "description": "Downloads webshare.cz file links (free tier)."
+    }
+  ]
+}
