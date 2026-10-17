@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "name": "warforum-free",
+  "name": "webshare-cz-free",
   "version": "0.1.0",
   "api": "1",
   "description": "Downloads webshare.cz file links (free tier).",
   "license": "GPL-3.0-only",
-  "entry": "warforum_free.py",
+  "entry": "webshare_cz_free.py",
   "permissions": ["network"]
 }

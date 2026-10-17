@@ -15,12 +15,12 @@ API_URL = "https://webshare.cz/api/file_link/"
 
 
 @fatrat.download_plugin(
-    name="Warforum free",
+    name="Webshare.cz free",
     url_pattern=URL_PATTERN,
     single_transfer=True,
     truncate_incomplete=False,
 )
-class WarforumFree(fatrat.DownloadPlugin):
+class WebshareCzFree(fatrat.DownloadPlugin):
 
     async def process_link(self, url: str) -> None:
         match = re.search(r"/#/file/([^/]+)/([^/\s]+)", url)

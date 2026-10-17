@@ -4,8 +4,8 @@
   "description": "A collection of Python plugins for FatRat.",
   "plugins": [
     {
-      "name": "warforum-free",
-      "source": "./warforum-free",
+      "name": "webshare-cz-free",
+      "source": "./webshare-cz-free",
       "description": "Downloads webshare.cz file links (free tier)."
     }
   ]

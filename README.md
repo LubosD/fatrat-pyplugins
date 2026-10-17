@@ -3,7 +3,7 @@
 A collection of Python plugins for [FatRat](http://fatrat.dolezel.info). For
 now it contains a single plugin:
 
-- `warforum-free` -- downloads webshare.cz links such as
+- `webshare-cz-free` -- downloads webshare.cz links such as
   `https://webshare.cz/#/file/5ShDjqTwK2/ddo02-7z` (free tier).
 
 ## Adding this repository to FatRat
@@ -21,11 +21,11 @@ FatRat has no central plugin index; you add repositories yourself.
    (`https://github.com/LubosD/fatrat-pyplugins` works too.) If you have SSH
    access to GitHub, `git@github.com:LubosD/fatrat-pyplugins.git` is
    accepted as well.
-4. The plugins in the repository are now listed. Pick `warforum-free`,
+4. The plugins in the repository are now listed. Pick `webshare-cz-free`,
    install it and **restart FatRat**.
 
 Use the clone URL, not a browser URL for a subfolder or branch such as
-`.../tree/master/warforum-free`; FatRat clones the repository's default
+`.../tree/master/webshare-cz-free`; FatRat clones the repository's default
 branch and reads `fatrat-plugins.json` from its root.
 
 FatRat pins the commit it installed, so updates only happen when you ask
@@ -39,5 +39,5 @@ FatRat is the whole development cycle.
 
 ## Security
 
-Plugins run with your user privileges. `warforum-free` talks to webshare.cz
+Plugins run with your user privileges. `webshare-cz-free` talks to webshare.cz
 only.
