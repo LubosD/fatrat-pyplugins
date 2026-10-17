@@ -17,7 +17,7 @@ API_URL = "https://webshare.cz/api/file_link/"
 @fatrat.download_plugin(
     name="Webshare.cz free",
     url_pattern=URL_PATTERN,
-    single_transfer=True,
+    single_transfer=2,
     truncate_incomplete=False,
 )
 class WebshareCzFree(fatrat.DownloadPlugin):
