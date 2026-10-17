@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "fatrat-warforum-free",
-  "description": "FatRat plugin for free downloads from webshare.cz links.",
+  "name": "fatrat-pyplugins",
+  "description": "A collection of Python plugins for FatRat.",
   "plugins": [
     {
       "name": "warforum-free",
