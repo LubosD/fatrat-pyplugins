@@ -18,7 +18,7 @@ API_URL = "https://webshare.cz/api/file_link/"
     name="Webshare.cz free",
     url_pattern=URL_PATTERN,
     single_transfer=2,
-    truncate_incomplete=False,
+    truncate_incomplete=True,
 )
 class WebshareCzFree(fatrat.DownloadPlugin):
 
@@ -56,4 +56,7 @@ class WebshareCzFree(fatrat.DownloadPlugin):
         if name:
             self.report_file_name(name)
 
-        self.start_download(fatrat.DownloadUrl(url=link, referrer="https://webshare.cz/"))
+        # Naming the file explicitly keeps it from being renamed after
+        # the error page webshare.cz redirects refused requests to.
+        self.start_download(fatrat.DownloadUrl(url=link, referrer="https://webshare.cz/",
+                                               file_name=name or None))
