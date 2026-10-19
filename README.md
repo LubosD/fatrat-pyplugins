@@ -2,10 +2,8 @@
 
 A collection of Python plugins for [FatRat](http://fatrat.dolezel.info):
 
-- `webshare-cz-free` -- downloads webshare.cz links such as
-  `https://webshare.cz/#/file/5ShDjqTwK2/ddo02-7z` (free tier).
-- `fastshare-cloud` -- downloads fastshare.cloud links such as
-  `https://fastshare.cloud/27543387/m.a.s.h-s02e24-cz.mkv` (free tier).
+- `webshare-cz-free` -- downloads webshare.cz links (free tier).
+- `fastshare-cloud` -- downloads fastshare.cloud links (free tier).
 
 ## Adding this repository to FatRat
 
