@@ -7,6 +7,11 @@
       "name": "webshare-cz-free",
       "source": "./webshare-cz-free",
       "description": "Downloads webshare.cz file links (free tier)."
+    },
+    {
+      "name": "fastshare-cloud",
+      "source": "./fastshare-cloud",
+      "description": "Downloads fastshare.cloud file links (free tier)."
     }
   ]
 }

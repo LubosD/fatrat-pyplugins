@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "name": "fastshare-cloud",
+  "version": "0.1.0",
+  "api": "1",
+  "description": "Downloads fastshare.cloud file links (free tier).",
+  "license": "GPL-3.0-only",
+  "entry": "fastshare_cloud.py",
+  "permissions": ["network"]
+}

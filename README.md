@@ -1,10 +1,11 @@
 # fatrat-pyplugins
 
-A collection of Python plugins for [FatRat](http://fatrat.dolezel.info). For
-now it contains a single plugin:
+A collection of Python plugins for [FatRat](http://fatrat.dolezel.info):
 
 - `webshare-cz-free` -- downloads webshare.cz links such as
   `https://webshare.cz/#/file/5ShDjqTwK2/ddo02-7z` (free tier).
+- `fastshare-cloud` -- downloads fastshare.cloud links such as
+  `https://fastshare.cloud/27543387/m.a.s.h-s02e24-cz.mkv` (free tier).
 
 ## Adding this repository to FatRat
 
@@ -21,8 +22,8 @@ FatRat has no central plugin index; you add repositories yourself.
    (`https://github.com/LubosD/fatrat-pyplugins` works too.) If you have SSH
    access to GitHub, `git@github.com:LubosD/fatrat-pyplugins.git` is
    accepted as well.
-4. The plugins in the repository are now listed. Pick `webshare-cz-free`,
-   install it and **restart FatRat**.
+4. The plugins in the repository are now listed. Pick a plugin such as
+   `webshare-cz-free`, install it and **restart FatRat**.
 
 Use the clone URL, not a browser URL for a subfolder or branch such as
 `.../tree/master/webshare-cz-free`; FatRat clones the repository's default
@@ -39,5 +40,5 @@ FatRat is the whole development cycle.
 
 ## Security
 
-Plugins run with your user privileges. `webshare-cz-free` talks to webshare.cz
-only.
+Plugins run with your user privileges. Each plugin talks only to the site
+it is named after.
