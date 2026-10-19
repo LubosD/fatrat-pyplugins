@@ -12,7 +12,7 @@ URL_PATTERN = r"https?://(?:www\.)?fastshare\.cloud/\d+/[^/\s]+"
 @fatrat.download_plugin(
     name="FastShare.cloud free",
     url_pattern=URL_PATTERN,
-    single_transfer=True,
+    single_transfer=False,
     truncate_incomplete=True,
 )
 class FastshareCloud(fatrat.DownloadPlugin):
